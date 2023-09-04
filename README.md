@@ -4,7 +4,9 @@ Prediction of blunt rate of Cas9 breaks using the XGBoost model trained with Cha
 
 ## Install
 
-First, install the main dependency [H2O](https://h2o.ai/).
+### Dependencies
+
+The main dependency is [H2O](https://h2o.ai/).
 
 Remove any previously installed H2O packages for R.
 
@@ -33,7 +35,11 @@ localH2O = h2o.init()
 demo(h2o.kmeans)
 ```
 
-Now, install the package from GitHub. You will probably need `devtools` for that (`install.packages("devtools")`).
+Now, it's all set to install the package.
+
+### Installing the package
+
+The package resides in GitHub only. You will probably need `devtools` for that (`install.packages("devtools")`).
 
 ```R
 devtools::install_github("ssayols/bluntPred")
