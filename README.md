@@ -41,8 +41,15 @@ devtools::install_github("ssayols/bluntPred")
 
 ## Run
 
+Open the web app in your R console:
+
+```R
+bluntPred::shiny_bluntPred()
+```
+
 Paste a list of gRNAs targets and click on `Predict`.
 The list can actually be a table with <tab> or <comma> separated fields.
 The gRNA sequence is expected to be in the *first* column.
+
 NOTE: Only the seed portion of the protospacer (this is, the last 10 nucloetides of the target sequence) are used for the prediction in this model.
 
