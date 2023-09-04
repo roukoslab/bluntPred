@@ -1,0 +1,12 @@
+Package: bluntPred
+Type: Package
+Title: Prediction of blunt rate of Cas9 breaks
+Version: 0.1.0
+Authors@R: person("Sergi", "Sayols", email = "sergisayolspuig@gmail.com", role = c("aut", "cre"))
+Description: Prediction of blunt rate of Cas9 breaks using the XGBoost model trained with Chakrabarti's data.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: shiny, shinydashboard, DT
+Suggests: h2o
+RoxygenNote: 7.2.3
