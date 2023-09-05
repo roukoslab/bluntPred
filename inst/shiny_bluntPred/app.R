@@ -82,7 +82,7 @@ shinyApp(
       input$predict
       isolate({
         tryCatch({
-          read.table(stringsAsFactors=FALSE, strip.white=TRUE, fill=TRUE, text=gsub("[\\t|,]+", "\t", input$gRNAs))
+          read.table(stringsAsFactors=FALSE, strip.white=TRUE, fill=TRUE, text=gsub("[\t|,]+", "\t", input$gRNAs))
         }, error=function(e) NULL)
       })
     })
