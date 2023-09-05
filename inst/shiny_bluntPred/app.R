@@ -92,7 +92,7 @@ shinyApp(
       withProgress(message="Predicting blunt rates, this may take a while...", value=0, {
         tryCatch({
           # encode
-          guide10 <- substr(gRNAs()[[1]], 11, 20)
+          guide10 <- toupper(substr(gRNAs()[[1]], 11, 20))
           onehot10 <- as.list(as.data.frame(onehotV(guide10, guide10)))
 
           # predict the outcome for each gRNA
