@@ -59,3 +59,8 @@ The gRNA sequence is expected to be in the *first* column.
 
 NOTE: Only the seed portion of the protospacer (this is, the last 10 nucloetides of the target sequence) are used for the prediction in this model.
 
+## Cite
+
+If you find this tool useful and use it in your research, please cite our publication:
+
+Longo, Sayols et al., Linking CRISPR–Cas9 double-strand break profiles to gene editing precision with BreakTag. Nat. Biotechnol. 2024. DOI: https://doi.org/10.1038/s41587-024-02238-8
