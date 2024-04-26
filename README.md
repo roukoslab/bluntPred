@@ -42,7 +42,7 @@ Now, it's all set to install the package.
 The package resides in GitHub only. You will probably need `devtools` for that (`install.packages("devtools")`).
 
 ```R
-devtools::install_github("ssayols/bluntPred")
+devtools::install_github("roukoslab/bluntPred")
 ```
 
 ## Run
