@@ -1,6 +1,6 @@
 # bluntPred
 
-Prediction of blunt rate of Cas9 breaks using the XGBoost model trained with Chakrabarti's data.
+Prediction of blunt rates of Streptococcus pyogenes Cas9 (SpCas9) using the XGBoost model trained with HiPlex1 data.
 
 ## Install
 
