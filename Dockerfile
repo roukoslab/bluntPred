@@ -19,7 +19,8 @@ RUN apt-get update && \
 RUN R --slave -e 'install.packages(c("RCurl","jsonlite", "devtools", "shiny"))' && \
     R --slave -e 'install.packages("h2o", type="source", repos="http://h2o-release.s3.amazonaws.com/h2o/rel-zumbo/2/R")' && \
     R --slave -e 'devtools::install_github("roukoslab/bluntPred")' && \
-    R --slave -e 'file.copy(system.file("shiny_bluntPred", package="bluntPred"), "/srv/shiny-server/", recursive=TRUE)'
+    R --slave -e 'file.copy(system.file("shiny_bluntPred", package="bluntPred"), "/srv/shiny-server/", recursive=TRUE)' && \
+    sed -i 's|#{{Impressum-placeholder}}|, p(style="text-align: right;", a("Institute of Molecular Biology gGmbH", href="https://imb.de/", target="_blank")), p(style="text-align: right;", a("Impressum - Imprint", href="https://imb.de/impressum-imprint", target="_blank"))|' /srv/shiny-server/shiny_bluntPred/app.R
 
 # Setup permissions
 RUN chown -R shiny:shiny /var/lib/shiny-server && \

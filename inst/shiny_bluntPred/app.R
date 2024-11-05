@@ -33,7 +33,7 @@ shinyApp(
                box(width=NULL, title="Predicted table", status="warning",
                    div(style='overflow-x: scroll', DTOutput("predTable")),
                    downloadLink("downloadPredTable", "Download predicted table")
-               )
+               )#{{Impressum-placeholder}}
         )
       )
     )
