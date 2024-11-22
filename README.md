@@ -1,4 +1,4 @@
-**NOTE:** his repo is now part of [breakinspectoR](https://github.com/roukoslab/breakinspectoR). The code here has been frozen as of November 2024, and additional features are available only in breakinspectoR.
+**NOTE:** this repo is now part of [breakinspectoR](https://github.com/roukoslab/breakinspectoR). The code here has been frozen as of November 2024, and additional features are available only in breakinspectoR.
 
 # bluntPred
 
