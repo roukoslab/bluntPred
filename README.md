@@ -1,3 +1,6 @@
+[!CAUTION]
+This repo is now part of [breakinspectoR](https://github.com/roukoslab/breakinspectoR). The code here has been frozen as of November 2024, and additional features are available only in breakinspectoR.
+
 # bluntPred
 
 Prediction of blunt rates of Streptococcus pyogenes Cas9 (SpCas9) using the XGBoost model trained with HiPlex1 data.
